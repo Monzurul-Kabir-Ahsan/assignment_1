@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+/* header */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 808px;
+    width: 100%;
+}
+.banner-title{
+    padding-top: 216px;
+    padding-left: 845px;
+    padding-right: 230px;
+    text-align: right;
+}
+.banner-title h3{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.banner-title p{
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+}
+/* failure section */
+section{
+    margin-top: 130px;
+}
+.failure-container{
+    display: flex;
+    gap: 90px;
+    margin-left: 200px;
+    margin-right: 300px;
+    align-items: center;
+}
+.failure .image{
+    width: 570px;
+    height: 725px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failure-description{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.description li{
+    margin-bottom: 8px;
+}
+.description ul{
+    list-style: none;
+    color: #444343;
+}
+/* Plan section */
+.plan{
+    max-width: 1140px;
+    margin-left: 230px;
+}
+.plan-container{
+    display: flex;
+    gap: 130px;
+    text-align: center;
+}
+.plan .section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan .plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.paln .plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* Positive banner section */
+.positive-banner .banner{
+    
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+    /* background-image: url('../images/watch.png'); */
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    border-radius: 8px;
+}
+.positive-banner .positive-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 65px;
+    padding-right: 615px;
+    padding-top: 60px;
+}
+.positive-banner .btn-primary{
+    margin-left: 65px;
+    margin-top: 24px;
+}
+/* footer */
+.footer{
+    margin-top: 130px;
+    background-color: black;
+    height: 580px;
+}
+.footer-container{
+    display: flex;
+    gap:330px;
+    padding: 130px 230px;
+}
+.footer-future .footer-future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-future .footer-future-description{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.footer-future .footer-future-email{
+    color: #FFFFFF;
+}
+.footer-future .footer-future-phone{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.footer-subscriber .footer-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.footer-subscriber input[type="email"]{
+    width: 325px;
+    height: 64px;
+    padding-left: 22px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.footer-subscriber .btn-submit{
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: blue;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
